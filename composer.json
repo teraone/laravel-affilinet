@@ -1,5 +1,5 @@
 {
-    "name": "teraone/laravel-affilinet",
+    "name": "affilinet/laravel-affilinet",
     "description": "Wrapper for affilinet Product Data PHP SDK",
     "type": "library",
     "license": "MIT",
