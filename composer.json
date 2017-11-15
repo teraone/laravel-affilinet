@@ -1,0 +1,27 @@
+{
+    "name": "teraone/laravel-affilinet",
+    "description": "Wrapper for affilinet Product Data PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Gotre",
+            "email": "gotre@teraone.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "affilinet/productdata-php-sdk": "^1.0",
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "laravel/framework": ">=5.0",
+        "phpunit/phpunit": "4.*",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Affilinet\\LaravelAffilinet": "src/"
+        }
+    }
+}
